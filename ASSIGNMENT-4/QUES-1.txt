@@ -1,0 +1,10 @@
+#Discuss the ways in which inheritance promotes software reuse, saves time during program
+development and helps prevent errors.
+ANS: Inheritance allows developers to create derived classes that reuse code declared already in a base class.
+ Avoiding the duplication of common functionality between several cases by building an inheritance hierarchy
+ to contain the classes can save developers considerable amount of time. Similarly, placing common functionality
+ in a single hase class, rather than duplicating the code in multiple unrelated classes, helps prevent the 
+same errors from appearing in multiple source code files. If several classes each contain duplicate classes
+ containing an error, the software developer has to spend time correcting each source-code file with the error. 
+However, if these classes take ad vantage of inheritance, and the error occurs in the common functionality of
+ the base class, the software developer needs to modify only the base class's code..
